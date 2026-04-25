@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform5ive AI Assistant</title>
+    <style>
+        /* Fill the entire screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Prevents scrollbars */
+            background-color: #000; /* Dark background matches the AI stream */
+        }
+
+        /* Container for the Iframe */
+        .ai-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* The Digital Human Iframe */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ai-container">
+        <iframe 
+            src="https://stream.unith.ai/Platform5ive-1229/ohswa-27941?api_key=0658aaeb9a6a41d992befab87a296ce5" 
+            allow="microphone; autoplay; camera; display-capture; fullscreen;"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
